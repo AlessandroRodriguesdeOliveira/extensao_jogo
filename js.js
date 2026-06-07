@@ -22,7 +22,7 @@ const db = getFirestore(app);
 /****************************************************************************************** */
 /*Constantes globais*/
 
-let life = 120;
+let life = 100;
 let perguntas = [];
 let pergunta = 0;
 let pontuacao = 0;
