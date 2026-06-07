@@ -151,6 +151,7 @@ async function salvarUsuario(e){
     e.preventDefault();
     const forme = document.getElementById('forme');
     const final = document.getElementById('final');
+    const demonio = document.getElementById('demonio');
     card.style.height = 'max-content'
     card.style.justifyContent = 'center'
     forme.style.display = 'none'
@@ -165,6 +166,7 @@ async function salvarUsuario(e){
     yes.parentNode.removeChild(yes)
     no.parentNode.removeChild(no)
     final.parentNode.removeChild(final)
+    demonio.parentNode.removeChild(demonio)
 
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
