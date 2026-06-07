@@ -41,6 +41,7 @@ const galhos = document.getElementById("galhos")
 const estrelas = document.getElementById("estrelas")
 const agradecimetos = document.getElementById("agradecimentos")
 
+
 /*Playback*/
 const playback = new Audio("playback.mp3")
 playback.loop = true
@@ -149,6 +150,7 @@ function lifeUp(){
 async function salvarUsuario(e){
     e.preventDefault();
     const forme = document.getElementById('forme');
+    const final = document.getElementById('final');
     card.style.height = 'max-content'
     card.style.justifyContent = 'center'
     forme.style.display = 'none'
@@ -162,7 +164,7 @@ async function salvarUsuario(e){
     galhos.parentNode.removeChild(galhos)
     yes.parentNode.removeChild(yes)
     no.parentNode.removeChild(no)
-    agradecimetos.parentNode.removeChild(agradecimetos)
+    final.parentNode.removeChild(final)
 
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
