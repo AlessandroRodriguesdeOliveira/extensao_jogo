@@ -660,7 +660,7 @@ position: relative;
 
 .corpo{
     display: block;
-    background-color: rgb(71, 38, 5);
+    background-color: rgb(236, 234, 152);
     width: 60px;
     height: 10px;
     margin-top: 20px;
@@ -670,7 +670,7 @@ position: relative;
 
 .cabeca{
     display: block;
-    background-color: rgb(71, 38, 5);
+    background-color: rgb(33, 38, 42);
     width: 15px;
     height: 5px;
     margin-top: -15px;
@@ -679,7 +679,7 @@ position: relative;
 
 .olho{
     display: block;
-    background-color: rgb(71, 38, 5);
+    background-color: rgb(190, 187, 123);
     width: 12px;
     height: 8px;
     margin-top: -8px;
@@ -689,7 +689,7 @@ position: relative;
 
 .asa{
     display: block;
-    background-color: rgb(71, 38, 5);
+    background-color: rgb(236, 234, 152);
     width: 30px;
     height: 15px;
     margin-left: 30px;
