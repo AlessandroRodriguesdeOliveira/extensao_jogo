@@ -162,6 +162,7 @@ async function salvarUsuario(e){
     galhos.parentNode.removeChild(galhos)
     yes.parentNode.removeChild(yes)
     no.parentNode.removeChild(no)
+    agradeciemntos.parentNode.removeChild(agradeciemntos)
 
     const nome = document.getElementById('nome').value;
     const email = document.getElementById('email').value;
