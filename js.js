@@ -46,7 +46,7 @@ const agradecimetos = document.getElementById("agradecimentos")
 /*Playback*/
 const playback = new Audio("playback.mp3")
 playback.loop = true
-playback.volume = 1
+playback.volume = 0.3
 
 /*Coin sound*/
 const coin = new Audio("coin.mp3")
