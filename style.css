@@ -1130,7 +1130,8 @@ position: relative;
 /****************************/
 #final{
     position: absolute;
-    bottom: 20px;
+    margin-top: 10px;
+    bottom: 0px;
     background-color: red;
     text-align: center;
     align-self: center;
