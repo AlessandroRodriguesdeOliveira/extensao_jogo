@@ -25,6 +25,7 @@ const db = getFirestore(app);
 let life = 100;
 let perguntas = [];
 let pergunta = 0;
+let po = 0;
 const ceu = document.getElementById("ceu");
 const pontos = document.getElementById("pontos")
 const tronco = document.getElementById("tronco")
@@ -143,6 +144,7 @@ function lifeUp(){
     coin.play()
     let valor = Number(pontos.innerText.toString())
     valor += 125
+    po += 125
     pontos.innerText = valor
     return;
 }
@@ -179,6 +181,7 @@ async function salvarUsuario(e){
             email,
             escola,
             feedback,
+            po,
             dataCadastro: new Date()
         });
 
