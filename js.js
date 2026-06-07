@@ -50,7 +50,7 @@ playback.volume = 0.3
 
 /*Coin sound*/
 const coin = new Audio("coin.mp3")
-coin.volume = 0.5
+coin.volume = 0.3
 
 function gameover(life){
     
